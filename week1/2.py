@@ -1,2 +1,2 @@
-a=12
-print(a)
+#Python Intro
+print("Hello, World!")
