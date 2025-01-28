@@ -1,20 +1,20 @@
-print("--1")
+print("--1--lists")
 thislist = ["apple", "banana", "cherry", "apple", "cherry"]
 print(thislist)
 
 
-print("--2")
+print("--2--access list items")
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:5])
 
 
-print("--3")
+print("--3--change items")
 thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant"
 print(thislist)
 
 
-print("--4")
+print("--4--add items")
 thislist = ["apple", "banana", "cherry"]
 thislist.append("orange")
 thislist.insert(1, "orange")
@@ -23,24 +23,24 @@ thislist.extend(tropical)
 print(thislist)
 
 
-print("--5")
+print("--5--remove items")
 thislist = ["apple", "banana", "cherry", "banana", "kiwi"]
 thislist.remove("banana")
 print(thislist)
 
 
-print("--6")
+print("--6--loop lists")
 thislist = ["apple", "banana", "cherry"]
 [print(x) for x in thislist]
 
 
-print("--7")
+print("--7--list comperhension")
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = [x for x in fruits if "a" in x]
 print(newlist)
 
 
-print("--8")
+print("--8--sort lists")
 def myfunc(n):
   return abs(n - 50)
 
@@ -49,7 +49,7 @@ thislist.sort(key = myfunc)
 print(thislist)
 
 
-print("--9")
+print("--9--copy lists")
 thislist = ["apple", "banana", "cherry"]
 mylist = thislist.copy()
 #mylist = list(thislist)
@@ -57,7 +57,7 @@ mylist = thislist.copy()
 print(mylist)
 
 
-print("--10")
+print("--10--join lists")
 list1 = ["a", "b", "c"]
 list2 = [1, 2, 3]
 list3 = list1 + list2
@@ -67,7 +67,7 @@ list3 = list1 + list2
 print(list3)
 
 
-print("--11")
+print("--11--methods")
 '''
 append()	Adds an element at the end of the list
 clear()	Removes all the elements from the list
