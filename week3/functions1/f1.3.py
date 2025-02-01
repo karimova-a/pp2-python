@@ -4,7 +4,7 @@ def solve(numheads, numlegs):
 
     numchicken = numheads - numrabbit
 
-    print(f"Number of rabbits: {numrabbit} . Number of chickens {numchicken} .")
+    print(f"Number of rabbits: {numrabbit} . Number of chickens {numchicken}")
 
 
 x, y = 35, 94
