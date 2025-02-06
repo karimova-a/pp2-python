@@ -22,7 +22,6 @@ for i in range(n):
     el = int(input())
     nums.append(el)
 
-
 print(filter_prime(nums))
 
 
